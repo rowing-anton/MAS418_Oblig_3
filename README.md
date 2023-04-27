@@ -3,9 +3,9 @@ Obligatory Exercise 3 - Distributed Control Systems
 
 ## Task 1 - PLC 
 ### Step 1 - PLC Simulator
-Create a PLC program including manual (feed forward and slider gain input from visualization) and auto mode control (velocity feedforward and closed loop P controller and motion ref generator) of the green crane simulator introduced in lecture #2.5. All details are in the Simulink model available in the GreenCraneSimulator_SomplifiedHydMechModel.slx model [GitHub - hagenmek/MAS418_SimulinkModel](https://github.com/hagenmek/MAS418_SimulinkModel)
+Create a PLC program including manual (feed forward and slider gain input from visualization) and auto mode control (velocity feedforward and closed loop P controller and motion ref generator) of the green crane simulator introduced in lecture #2.5. All details are in the Simulink model available in the GreenCraneSimulator_SomplifiedHydMechModel.slx model [GitHub - hagenmek/MAS418_SimulinkModel](https://github.com/hagenmek/MAS418_SimulinkModel)  
 
-Test both modes. 
+Test both modes.   
 
 You can also use the solution proposal on [Github (Lab#5)](https://github.com/hagenmek/mas418_TwinCAT/tree/LAB%235/MAS418_LAB1/MAS418_LAB1/LabExercise/Simulator)
 from the last year lab exercise as a starting point.
@@ -29,8 +29,8 @@ This step will be introduced in lecture #3 on the 11. April. However, if you wan
 2. Follow instruction on this Git repo: https://github.com/kristianmk/ros2-examples-ads
 
 ### Step 2 - Test ADS-ROS interface
-Expand the example from step 1, add necessary signals according to Simulink model, and connected the node to existing nodes with visualization in Rviz. Minimum required ADS signals are:
+Expand the example from step 1, add necessary signals according to Simulink model, and connected the node to existing nodes with visualization in Rviz. Minimum required ADS signals are:  
 
-Inputs from PLC to ROS: boom angle for visualization, piston and rod side pressures.
-Outputs from ROS to PLC: Start and Stop commands, and necessary motion reference generator variables, to run the auto sequence.
+Inputs from PLC to ROS: boom angle for visualization, piston and rod side pressures.  
+Outputs from ROS to PLC: Start and Stop commands, and necessary motion reference generator variables, to run the auto sequence.  
 
