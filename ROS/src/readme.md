@@ -1,8 +1,8 @@
 # ROS2 Workspace
 
-in the folder ADS run: 
+in the folder ADS run:   
 `meson build`  
-`ninja -C build´  
+`ninja -C build`  
 
 ## commands to run the nodes: 
 ros2 run ads_example_package ads_node
