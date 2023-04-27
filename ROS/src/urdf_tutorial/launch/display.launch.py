@@ -50,19 +50,6 @@ def generate_launch_description():
         arguments=['-d', LaunchConfiguration('rvizconfig')],
     )
     
-    crane_controller_node = Node(
-    	package='urdf_tutorial',
-    	executable='crane_controller.py',
-    	output='screen',
-    	emulate_tty=True,
-    	arguments=[('__log_level:=debug')]
-    )
-    
-    crane_HMI_node = Node(
-    	package='urdf_tutorial',
-    	executable='crane_HMI.py',
-    	output='screen'
-    )
 
     return LaunchDescription([
         #gui_arg,
@@ -72,6 +59,4 @@ def generate_launch_description():
         #joint_state_publisher_gui_node,
         robot_state_publisher_node,
         rviz_node,
-        #crane_controller_node,
-        #crane_HMI_node
     ])
