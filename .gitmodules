@@ -1,6 +1,11 @@
-[submodule "ROS/src/joint_state_publisher"]
-	path = ROS/src/joint_state_publisher
-	url = https://github.com/ros/joint_state_publisher
 [submodule "ROS/src/ADS"]
 	path = ROS/src/ADS
 	url = https://github.com/Beckhoff/ADS.git
+[submodule "ROS/src/xacro"]
+	path = ROS/src/xacro
+	url = https://github.com/ros/xacro.git
+	branch = ros2
+[submodule "ROS/src/joint_state_publisher"]
+	path = ROS/src/joint_state_publisher
+	url = https://github.com/ros/joint_state_publisher
+	branch = ros2
