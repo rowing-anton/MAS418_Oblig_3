@@ -24,7 +24,7 @@ Prepare sending Start and Stop commands, and necessary motion reference generato
 ### Step 1 - ADS-ROS interface setup
 This step will be introduced in lecture #3 on the 11. April. However, if you want you can take a look at examples from last year.
 
-1. Follow this guide: ROS2-ADS-TwinCAT_Guide.pdf Download ROS2-ADS-TwinCAT_Guide.pdf 
+1. Follow this guide: ROS2-ADS-TwinCAT_Guide.pdf
 
 2. Follow instruction on this Git repo: https://github.com/kristianmk/ros2-examples-ads
 
