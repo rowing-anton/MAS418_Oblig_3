@@ -5,7 +5,7 @@ in the folder ADS run:
 `ninja -C build`  
 
 ## commands to run the nodes:   
-`ros2 run ads_example_package ads_node`
+`ros2 run ads_example_package ads_node`  
 `ros2 run crane_controller controller`  
 `ros2 run crane_controller hmi`  
 `ros2 launch urdf_tutorial crane_visualization.launch.py`  
