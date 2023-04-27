@@ -1,0 +1,4 @@
+float64 cyl_vel_ref
+float64 cyl_pos_ref
+bool start
+bool stop
