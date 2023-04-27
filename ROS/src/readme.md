@@ -12,6 +12,6 @@ in the folder ADS run:
 
 ## display the topics in the command line:  
 `ros2 topic echo /state_publisher`  
-´ros2 topic echo /motion_reference`  
+`ros2 topic echo /motion_reference`  
 
 don't forget to build and source the solution
